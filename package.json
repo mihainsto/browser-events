@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.0",
+    "@mui/lab": "^5.0.0-alpha.58",
+    "@mui/material": "^5.2.2",
+    "@mui/styles": "^5.2.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -10,9 +16,17 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "axios": "^0.24.0",
+    "bootstrap": "5.1.3",
+    "date-fns": "^2.27.0",
+    "lodash": "^4.17.21",
     "react": "^17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-bootstrap": "^2.0.3",
+    "react-datetime-picker": "^3.4.3",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "react-virtualized": "^9.22.3",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
@@ -39,5 +53,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.177",
+    "@types/react-beautiful-dnd": "^13.1.2",
+    "@types/react-datetime-picker": "^3.4.0",
+    "@types/react-virtualized": "^9.21.15"
   }
 }
